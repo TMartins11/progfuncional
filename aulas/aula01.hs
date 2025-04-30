@@ -47,7 +47,7 @@ maxi m n
    fazendo uso de maxi no código interno-}
 maiorVenda01:: Int->Int
 maiorVenda01 0 = 0
-maiorVenda01 x = maxi(f x) (maiorVenda01(x-1))
+maiorVenda01 x = maxi(f x) (maiorVenda01 (x-1))
   
 {- encontra a maior venda - versão 02 -}
 maiorVenda02::Int->Int->Int
