@@ -10,7 +10,7 @@ func1 (x:xs)
     | otherwise = func1 xs
 
 func1Esp :: String -> Int
-func1Esp xs = length[x| x <-xs, isDigit x]
+func1Esp xs = length[ x| x <-xs, isDigit x]
 
 --Questão 2
 -- Faça a função func2 que receba duas strings e retorne a string com maior quantidade de caracteres numéricos. 
