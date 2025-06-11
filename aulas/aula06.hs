@@ -6,7 +6,11 @@ listaDuplaCharInt x = [(chr x, x + ord '0')]
 
 
 {-02 função meuChar que pesquisa um char pelo int na lista gerada -}
-
+meuChar :: Int -> [(Char,Int)] -> Char
+meuChar x ((c,d):t)
+    | x == d = chr x 
+    | otherwise = meuChar x t 
+    
 {-03 função meuOrd que pesquisa o int pelo char na lista gerada -}
 
 {-04 função que ordena uma lista de inteiros -}
@@ -29,7 +33,4 @@ exemplo: ordenaListaDupla [(True,[3,4,1,0,9]),(False,[]),(True,[4,3,2,1,0])]
 retorna:                  [(False,[0,1,3,4,9]),(False,[]),(False,[0,1,2,3,4])]
 -}
 
-ordenaListaDupla::[(Bool, [Int])]->[(Bool, [Int])]
-ordenaListaDupla [] = []
-ordenaListaDupla ((b,d):t)
-    | b  = ordenaListaDupla (ordenaLista d,t)
+-- ordenaListaDupla::[(Bool, [Int])]->[(Bool, [Int])]
