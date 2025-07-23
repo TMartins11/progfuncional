@@ -2,7 +2,7 @@
 
 <p align="center">
   <img loading="lazy" alt="Haskell Logo" src="https://img.shields.io/badge/Haskell-%238B4F9F?style=flat-square&logo=haskell&logoColor=white">
-  <img loading="lazy" alt="Project Status" src="https://img.shields.io/badge/Status-Cursando-yellow?style=flat-square&labelColor=grey&color=yellow">
+  <img loading="lazy" alt="Project Status" src="https://img.shields.io/badge/Status-Finalizado-green?style=flat-square&labelColor=grey&color=green">
   <img loading="lazy" alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
 </p>
 
